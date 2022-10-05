@@ -11,478 +11,496 @@
       href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/x-icon" href="/images/code.png">
+    <link rel="icon" type="image/x-icon" href="/images/code.png" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="js/script.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+      integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
   </head>
   <body class="overflow-x-hidden">
-    
     <nav class="container relative mx-auto p-3">
-        <!-- Flex Container For Nav Items -->
-        <div class="flex items-center justify-between space-x-20 my-6">
-          <!-- Logo -->
-          <div class="z-30">
-            <img src="images/code.png" class="w-12 h-10" alt="" id="logo" />
-          </div>
-  
-          <!-- Menu Items -->
-          <div
-            class="hidden items-center space-x-10  text-grayishBlue md:flex"
-          >
-            <a href="#about" class="tracking-widest hover:text-softRed"
-              >About</a
-            >
-            <a href="#skills" class="tracking-widest hover:text-softRed"
-              >Skills</a
-            >
-            <a href="#experiences" class="tracking-widest hover:text-softRed">Experiences</a>
-  
-            <a
-              href="#wil"
-              class="px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md hover:text-softRed hover:bg-white"
-              >WIL</a
-            >
-          </div>
-          <!-- Hamburger Button -->
-          <button
-            id="menu-btn"
-            class="z-30 block md:hidden focus:outline-none hamburger"
-          >
-            <span class="hamburger-top"></span>
-            <span class="hamburger-middle"></span>
-            <span class="hamburger-bottom"></span>
-          </button>
+      <!-- Flex Container For Nav Items -->
+      <div class="flex items-center justify-between space-x-20 my-6">
+        <!-- Logo -->
+        <div class="z-30">
+          <img src="images/code.png" class="w-12 h-10" alt="" id="logo" />
         </div>
-        <!-- Mobile Menu -->
-        <div
-          id="menu"
-          class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest divide-y divide-gray-500 opacity-90 bg-white"
+
+        <!-- Menu Items -->
+        <div class="hidden items-center space-x-10 text-grayishBlue md:flex">
+          <a href="#about" class="tracking-widest hover:text-softRed">About</a>
+          <a href="#skills" class="tracking-widest hover:text-softRed"
+            >Skills</a
+          >
+          <a href="#experiences" class="tracking-widest hover:text-softRed"
+            >Experiences</a
+          >
+
+          <a
+            href="#wil"
+            class="px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md hover:text-softRed hover:bg-white"
+            >WIL</a
+          >
+        </div>
+        <!-- Hamburger Button -->
+        <button
+          id="menu-btn"
+          class="z-30 block md:hidden focus:outline-none hamburger"
         >
-          <div class="w-full py-3 text-center">
-            <a href="#about" class="block hover:text-softRed">About</a>
-          </div>
-          <div class="w-full py-3 text-center">
-            <a href="#skills" class="block hover:text-softRed">Skills</a>
-          </div>
-          <div class="w-full py-3 text-center">
-            <a href="#experiences" class="block hover:text-softRed">Experiences</a>
-          </div>
-          <div class="w-full py-3 text-center">
-            <a href="#wil" class="block hover:text-softRed">WIL</a>
-          </div>
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div
+        id="menu"
+        class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest divide-y divide-gray-500 opacity-90 bg-white"
+      >
+        <div class="w-full py-3 text-center">
+          <a href="#about" class="block hover:text-softRed">About</a>
         </div>
-      </nav>
-      <!-- Hero Section -->
+        <div class="w-full py-3 text-center">
+          <a href="#skills" class="block hover:text-softRed">Skills</a>
+        </div>
+        <div class="w-full py-3 text-center">
+          <a href="#experiences" class="block hover:text-softRed"
+            >Experiences</a
+          >
+        </div>
+        <div class="w-full py-3 text-center">
+          <a href="#wil" class="block hover:text-softRed">WIL</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
     <section id="hero">
-        <!-- Container For Image & Content -->
-        <div
-          class="container flex flex-col-reverse mx-auto p-6 lg:flex-row lg:mb-0"
-        >
-          <!-- Content -->
-          <div class="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
-            <h1
-              class="text-3xl font-semibold text-center lg:text-6xl lg:text-left"
-            >
-              Hi, I'm Abhiyendra Gahlot 🧑🏽‍💻
-            </h1>
-            <p class="max-w-md mx-auto text-lg text-center text-softBlue lg:text-2xl lg:text-left lg:mt-0 lg:mx-0">
-                Data Analyst, Web Developer
-            </p>
-            <p
-              class="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-0"
-            >
-              A clean and simple interface to organize your favourite websites.
-              Open a new browser tab and see your sites load instantly. Try it for
-              free.
-            </p>
-  
-            <!-- Buttons Container -->
-            <div
-              class="flex items-center justify-center w-full space-x-4 lg:justify-start"
-            >
-              <a
-                href="#"
-                class="p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-2 border-softBlue md:text-base hover:bg-white hover:text-softBlue"
-                ><i class="fa-brands fa-github"></i> Github</a
-              >
-              <a
-                href="#"
-                class="p-4 text-sm font-semibold text-black bg-gray-300 rounded shadow-md border-2 border-gray-300 md:text-base hover:bg-white hover:text-gray-600"
-                ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
-              >
-            </div>
-          </div>
-  
-          <!-- Image -->
-          <div class="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
-            <div class="bg-hero"></div>
-            <img
-              src="images/Developer.svg"
-              alt=""
-              class="relative z-10 lg:top-24 xl:top-0 overflow-x-visible"
-            />
-          </div>
-        </div>
-      </section>
-
-      <!-- About Heading -->
-    <section id="about">
-        <div class="container mx-auto mt-16 px-6">
-          <h2 class="mb-6 text-4xl font-semibold text-center">About</h2>
-          <p class="max-w-md mx-auto text-center text-grayishBlue">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum reiciendis molestias! Nesciunt nostrum cum, error quo veniam doloribus voluptate.
-          </p>
-        </div>
-      </section>
-  
-      <!-- Features Tabs -->
-      <section id="tabs">
-        <!-- Tabs/Panels Container -->
-        <div class="container relative mx-auto my-6 mb-32 mt-12 px-6">
-          <div class="bg-tabs"></div>
-          <!-- Tabs Flex Container -->
-          <div
-            class="flex flex-col justify-center max-w-xl mx-auto mb-6 border-b md:space-x-10 md:flex-row"
+      <!-- Container For Image & Content -->
+      <div
+        class="container flex flex-col-reverse mx-auto p-6 lg:flex-row lg:mb-0"
+      >
+        <!-- Content -->
+        <div class="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
+          <h1
+            class="text-3xl font-semibold text-center lg:text-6xl lg:text-left"
           >
-            <!-- Tab 1 -->
-            <div
-              class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
-              data-target="panel-1"
-            >
-              <div class="py-5 border-b-4 border-softRed" data-target="panel-1">
-                Career Goals
-              </div>
-            </div>
-  
-            <!-- Tab 2 -->
-            <div
-              class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
-              data-target="panel-2"
-            >
-              <div class="py-5" data-target="panel-2">Area of Study</div>
-            </div>
-  
-            <!-- Tab 3 -->
-            <div
-              class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
-              data-target="panel-3"
-            >
-              <div class="py-5" data-target="panel-3">Experience in WIL</div>
-            </div>
-          </div>
-  
-          <!-- Tab Panels -->
-          <div id="panels" class="container mx-auto">
-            <!-- Panel 1 -->
-            <div
-              class="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1"
-            >
-              <!-- Panel Image -->
-              <div class="flex justify-center md:w-1/2">
-                <img
-                  src="images/illustration-features-tab-1.svg"
-                  alt=""
-                  class="relative z-10"
-                />
-              </div>
-              <!-- Panel Content -->
-              <div class="flex flex-col space-y-8 md:w-1/2">
-                <h3
-                  class="mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left"
-                >
-                  Goals
-                </h3>
-                <p class="text-center text-grayishBlue md:text-left">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe sint voluptates consequuntur similique placeat temporibus ab id quasi, nemo, alias nobis ducimus maxime repellat repudiandae pariatur quidem reprehenderit nesciunt eos vitae dignissimos beatae earum omnis. Qui aliquam harum quis asperiores facere ut sequi voluptate expedita voluptas est, illum delectus quisquam consequatur id vel? Ullam quas, commodi neque ad soluta placeat, repellat eius magni, beatae consequuntur ab! Voluptates maiores doloremque nam dignissimos omnis, modi provident veritatis tenetur, laboriosam ex saepe, hic ipsum corporis delectus explicabo harum doloribus nesciunt maxime ratione blanditiis. Nam mollitia asperiores inventore? In adipisci vero perspiciatis, nisi nemo rem ipsam quis. Perspiciatis adipisci obcaecati possimus similique repudiandae. Vero officia iusto repudiandae maxime voluptatibus maiores perspiciatis id velit natus odit expedita aspernatur amet quaerat ad ratione, omnis ullam excepturi explicabo mollitia pariatur ab enim esse? Rem, ad cum quos sint distinctio unde excepturi dolor quibusdam velit nemo quisquam aspernatur.
-                </p>
-            
-              </div>
-            </div>
-  
-            <!-- Panel 2 -->
-            <div
-              class="flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-2"
-            >
-              <!-- Panel Image -->
-              <div class="flex justify-center md:w-1/2">
-                <img
-                  src="images/illustration-features-tab-2.svg"
-                  alt=""
-                  class="relative z-10"
-                />
-              </div>
-              <!-- Panel Content -->
-              <div class="flex flex-col space-y-8 md:w-1/2">
-                <h3
-                  class="mt-14 text-3xl font-semibold text-center md:mt-0 md:text-left"
-                >
-                  Intelligent search
-                </h3>
-                <p class="text-center text-grayishBlue md:text-left">
-                  Our powerful search feature will help you find saved sites in no
-                  time at all. No need to trawl through all of your bookmarks.
-                </p>
-                
-              </div>
-            </div>
-  
-            <!-- Panel 3 -->
-            <div
-              class="flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-3"
-            >
-              <!-- Panel Image -->
-              <div class="flex justify-center md:w-1/2">
-                <img
-                  src="images/illustration-features-tab-3.svg"
-                  alt=""
-                  class="relative z-10"
-                />
-              </div>
-              <!-- Panel Content -->
-              <div class="flex flex-col space-y-8 md:w-1/2">
-                <h3
-                  class="mt-14 text-3xl font-semibold text-center md:mt-0 md:text-left"
-                >
-                  Share your bookmarks
-                </h3>
-                <p class="text-center text-grayishBlue md:text-left">
-                  Easily share your bookmarks and collections with others. Create
-                  a shareable a link that you can send at the click of a button.
-                </p>
-                <div class="mx-auto md:mx-0">
-                  <a
-                    href="#"
-                    class="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg md:inline-flex bg-softBlue hover:bg-white hover:text-softBlue hover:border-softBlue hover:border-2"
-                    >More Info</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <!-- WIL Heading -->
-    <section id="wil">
-        <div class="container mx-auto mt-16 px-6">
-          <h2 class="mb-6 text-4xl font-semibold text-center">WIL</h2>
-          <p class="max-w-md mx-auto text-center text-grayishBlue">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum reiciendis molestias! Nesciunt nostrum cum, error quo veniam doloribus voluptate.
+            Hi, I'm Abhiyendra Gahlot 🧑🏽‍💻
+          </h1>
+          <p
+            class="max-w-md mx-auto text-lg text-center text-softBlue lg:text-2xl lg:text-left lg:mt-0 lg:mx-0"
+          >
+            Data Analyst, Web Developer
           </p>
-        </div>
-      </section>
+          <p
+            class="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-0"
+          >
+            A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it for
+            free.
+          </p>
+          <div
+            class="flex items-center justify-center w-full space-x-4 lg:justify-start"
+          >
+          <lord-icon
+    src="https://cdn.lordicon.com/zjscbpdr.json"
+    trigger="loop"
+    delay="2000"
+    style="width:100px;height:100px">
+</lord-icon>
+</div>
 
-      <!-- Productive Section -->
-    <section id="productive" class="bg-white dark:bg-darkBlue">
-        <!-- Productive Container -->
-        <div
-          class="container flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row md:space-x-16"
-        >
-          <!-- Image -->
-          <div class="w-1/3">
-            <img
-              src="images/3d-model.png"
-              alt=""
-              class="mb-5"
-            />
+          <!-- Buttons Container -->
+          <div
+            class="flex items-center justify-center w-full space-x-4 lg:justify-start"
+          >
+            <a
+              href="#"
+              class="p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-2 border-softBlue md:text-base hover:bg-white hover:text-softBlue"
+              ><i class="fa-brands fa-github"></i> Github</a
+            >
+            <a
+              href="#"
+              class="p-4 text-sm font-semibold text-black bg-gray-300 rounded shadow-md border-2 border-gray-300 md:text-base hover:bg-white hover:text-gray-600"
+              ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+            >
           </div>
-          <!-- Content -->
-          <div class="flex flex-col items-start md:w-1/2">
-            <div class="flex flex-col space-y-5">
-              <h6 class="max-w-md text-2xl font-bold md:text-3xl">
-                Being an Expert: To be, or not to be
-              </h6>
-              <p class="text-md md:text-lg">
-                My industry supervisor briefed me on the nature of the project and provided me with multiple technical papers to read. Initially, I felt a clear sense of guidance and direction as the task of reading papers seemed simple. I encountered many unknown terms and technical jargon once I started reading these papers. I felt increasingly disoriented and compelled to understand everything, even though the context and application were different to my placement. I became fixated with learning the applications of a certain algorithm and spent hours listening to YouTube tutorials and reading technical papers. I felt less confident about my capability, and that I was not ready to carry out tasks (e.g., coding). I believed the solution to my doubts was to obtain a depth of knowledge in every algorithm I encountered. I now understand that focusing on depth in one area (e.g., algorithm function) led to a considerable waste of time as being an expert on one of the many learning points meant less time could be allocated to learning other relevant information/skills. I will be needed to constantly learn new software, languages and domain knowledge in my career in IT. Hence to tackle this issue in the future, I shall compile a list of questions to guide my research and learning process and set the scope of depth and breadth for relevant topics/skills. I will utilise a note-taking application such as Evernote to consolidate my knowledge. This will help me focus, and not get sidetracked into learning more about a term/domain/skill than needed to carry out tasks. I am aware that in areas where I need to be an expert, delving deep into one domain will allow me to discern the many applications of the knowledge area. 
-With deadlines approaching, I proceeded to try out snippets of code that I did not fully understand to mimic Blackbox functions. I was surprised when I made progress with building a model, and this challenged my assumption that I cannot apply with having a beginner level of knowledge/skills. My small achievement taught me that I should not doubt my capabilities and be hesitant to try just because I do not have expertise. Additionally, I understood the importance of segmenting tasks with proper time allocation and discipline such that all learning tasks are completed. I realised that not being an “expert” on things I learn does not make me less capable. It is important to recognise when a breadth of knowledge/skills may be more beneficial than having expertise.
-
-              </p>
-  
-              <p class="text-md md:text-lg">
-                
-              </p>
-            </div>
-  
-            
-          </div>
-          
         </div>
-  
-        <div
-          class="container mt-0 pt-0 flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row-reverse md:space-x-16"
-        >
+
         <!-- Image -->
-        <div class="w-1/3">
+        <div class="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
+          <div class="bg-hero"></div>
           <img
-            src="images/illustration-stay-productive.png"
+            src="images/Developer.svg"
             alt=""
-            class="mb-10"
+            class="relative z-10 lg:top-24 xl:top-0 overflow-x-visible"
           />
         </div>
-          
-          <!-- Content -->
-          <div class="flex flex-col items-start md:w-1/2">
-            <div class="flex flex-col space-y-5">
-              <h6 class="max-w-md text-2xl font-bold md:text-3xl">
-                Receiving Feedback and communication methods
-              </h6>
-              <p class="text-md md:text-lg">
-                After reading numerous publications, I explored two algorithms in-depth without knowing if I was heading in the right direction. Although I wanted to be error-free in my work, I was uneasy about receiving negative feedback – that I misunderstood the tasks assigned or my methods were wrong. Instead of approaching the placement supervisor after making small progress (e.g., learning about Blackbox functions), I opted to do as much work as possible independently for many weeks. I realise that I desired to prove my capability to not just the supervisor, but myself. It was frustrating when I self-discovered that I was heading in the wrong direction as it was time-consuming and needed numerous trials and errors. I eventually approached the supervisor for guidance and validation when I could not progress further. After talking to the supervisor, I now understand that receiving feedback is not necessarily daunting as it is not harsh criticism. Furthermore, it does not undermine my capabilities or make my existing work futile, as sometimes we must experience failures to know what is correct. I recognise that I pressurised myself to be perfect, but this was not expected of me since I am new to many things. I understand that there is a distinction between overreliance and communicating to receive feedback. Constantly wanting to verify without self-exploration may come off as dependence, while periodically checking (e.g., once a week or fortnightly) is necessary. In all prospective jobs, I will work on my communication skills and practice asking for feedback and guidance whenever needed. Additionally, I shall learn to graciously accept and utilise both positive and negative feedback without getting defensive. While this skill cannot be acquired overnight, I will read on tips and mindfully practice it in my future workplace/s. I communicated with my placement supervisor through emails, physical meetings, and video calls. I realised that physical meetings make me feel intimidated, and it is harder to ask questions and process feedback. However, I also recognised that for different purposes, different communication methods work best (e.g., for many questions, talking is better than emailing). I am aware that in my career, I will need to be open to all methods of communication and thus, I need to overcome my discomfort with face-to-face meetings.
-              </p>
-  
-              <p class="text-md md:text-lg">
-                
+      </div>
+    </section>
+
+    <!-- About Heading -->
+    <section id="about">
+      <div class="container mx-auto mt-16 px-6">
+        <h2 class="mb-6 text-4xl font-semibold text-center">About</h2>
+        <p class="max-w-md mx-auto text-center text-grayishBlue">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum
+          reiciendis molestias! Nesciunt nostrum cum, error quo veniam doloribus
+          voluptate.
+        </p>
+      </div>
+    </section>
+
+    <!-- Features Tabs -->
+    <section id="tabs">
+      <!-- Tabs/Panels Container -->
+      <div class="container relative mx-auto my-6 mb-32 mt-12 px-6">
+        <div class="bg-tabs"></div>
+        <!-- Tabs Flex Container -->
+        <div
+          class="flex flex-col justify-center max-w-xl mx-auto mb-6 border-b md:space-x-10 md:flex-row"
+        >
+          <!-- Tab 1 -->
+          <div
+            class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
+            data-target="panel-1"
+          >
+            <div class="py-5 border-b-4 border-softRed" data-target="panel-1">
+              Career Goals
+            </div>
+          </div>
+
+          <!-- Tab 2 -->
+          <div
+            class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
+            data-target="panel-2"
+          >
+            <div class="py-5" data-target="panel-2">Area of Study</div>
+          </div>
+
+          <!-- Tab 3 -->
+          <div
+            class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
+            data-target="panel-3"
+          >
+            <div class="py-5" data-target="panel-3">Experience in WIL</div>
+          </div>
+        </div>
+
+        <!-- Tab Panels -->
+        <div id="panels" class="container mx-auto">
+          <!-- Panel 1 -->
+          <div
+            class="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1"
+          >
+            <!-- Panel Image -->
+            <div class="flex justify-center md:w-1/2">
+              <img
+                src="images/illustration-features-tab-1.svg"
+                alt=""
+                class="relative z-10"
+              />
+            </div>
+            <!-- Panel Content -->
+            <div class="flex flex-col space-y-8 md:w-1/2">
+              <h3
+                class="mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left"
+              >
+                Goals
+              </h3>
+              <p class="text-center text-grayishBlue md:text-left">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
+                sint voluptates consequuntur similique placeat temporibus ab id
+                quasi, nemo, alias nobis ducimus maxime repellat repudiandae
+                pariatur quidem reprehenderit nesciunt eos vitae dignissimos
+                beatae earum omnis. Qui aliquam harum quis asperiores facere ut
+                sequi voluptate expedita voluptas est, illum delectus quisquam
+                consequatur id vel? Ullam quas, commodi neque ad soluta placeat,
+                repellat eius magni, beatae consequuntur ab! Voluptates maiores
+                doloremque nam dignissimos omnis, modi provident veritatis
+                tenetur, laboriosam ex saepe, hic ipsum corporis delectus
+                explicabo harum doloribus nesciunt maxime ratione blanditiis.
+                Nam mollitia asperiores inventore? In adipisci vero
+                perspiciatis, nisi nemo rem ipsam quis. Perspiciatis adipisci
+                obcaecati possimus similique repudiandae. Vero officia iusto
+                repudiandae maxime voluptatibus maiores perspiciatis id velit
+                natus odit expedita aspernatur amet quaerat ad ratione, omnis
+                ullam excepturi explicabo mollitia pariatur ab enim esse? Rem,
+                ad cum quos sint distinctio unde excepturi dolor quibusdam velit
+                nemo quisquam aspernatur.
               </p>
             </div>
-  
-            
           </div>
-          
-          
+
+          <!-- Panel 2 -->
+          <div
+            class="flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-2"
+          >
+            <!-- Panel Image -->
+            <div class="flex justify-center md:w-1/2">
+              <img
+                src="images/illustration-features-tab-2.svg"
+                alt=""
+                class="relative z-10"
+              />
+            </div>
+            <!-- Panel Content -->
+            <div class="flex flex-col space-y-8 md:w-1/2">
+              <h3
+                class="mt-14 text-3xl font-semibold text-center md:mt-0 md:text-left"
+              >
+                Intelligent search
+              </h3>
+              <p class="text-center text-grayishBlue md:text-left">
+                Our powerful search feature will help you find saved sites in no
+                time at all. No need to trawl through all of your bookmarks.
+              </p>
+            </div>
+          </div>
+
+          <!-- Panel 3 -->
+          <div
+            class="flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-3"
+          >
+            <!-- Panel Image -->
+            <div class="flex justify-center md:w-1/2">
+              <img
+                src="images/illustration-features-tab-3.svg"
+                alt=""
+                class="relative z-10"
+              />
+            </div>
+            <!-- Panel Content -->
+            <div class="flex flex-col space-y-8 md:w-1/2">
+              <h3
+                class="mt-14 text-3xl font-semibold text-center md:mt-0 md:text-left"
+              >
+                Share your bookmarks
+              </h3>
+              <p class="text-center text-grayishBlue md:text-left">
+                Easily share your bookmarks and collections with others. Create
+                a shareable a link that you can send at the click of a button.
+              </p>
+              <div class="mx-auto md:mx-0">
+                <a
+                  href="#"
+                  class="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg md:inline-flex bg-softBlue hover:bg-white hover:text-softBlue hover:border-softBlue hover:border-2"
+                  >More Info</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- WIL Heading -->
+    <section id="wil">
+      <div class="container mx-auto mt-16 px-6">
+        <h2 class="mb-6 text-4xl font-semibold text-center">WIL</h2>
+        <p class="max-w-md mx-auto text-center text-grayishBlue">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum
+          reiciendis molestias! Nesciunt nostrum cum, error quo veniam doloribus
+          voluptate.
+        </p>
+      </div>
+    </section>
+
+    <!-- Productive Section -->
+    <section id="productive" class="bg-white dark:bg-darkBlue">
+      <!-- Productive Container -->
+      <div
+        class="container flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row md:space-x-16"
+      >
+        <!-- Image -->
+       
+        <div class="w-1/3 md:w-1/2">
+          <img src="images/expert.svg" alt="" class="mb-5" />
+        </div>
+        <!-- Content -->
+        <div class="flex flex-col items-start md:w-1/2">
+          <div class="flex flex-col space-y-5">
+            <h6 class="max-w-md text-2xl font-bold md:text-3xl">
+              Being an Expert: To be, or not to be
+            </h6>
+            <p class="text-md md:text-lg">
+              <b class="text-softBlue text-2xl"> M</b>y industry supervisor briefed me on the nature of the project and
+              provided me with multiple technical papers to read. Initially, I
+              felt a clear sense of guidance and direction as the task of
+              reading papers seemed simple. I encountered many unknown terms and
+              technical jargon once I started reading these papers. I felt
+              increasingly disoriented and compelled to understand everything,
+              even though the context and application were different to my
+              placement. I became fixated with learning the applications of a
+              certain algorithm and spent hours listening to YouTube tutorials
+              and reading technical papers. I felt less confident about my
+              capability, and that I was not ready to carry out tasks (e.g.,
+              coding). 
+            </p>
+
+            <p class="text-md md:text-lg">
+              I believed the solution to my doubts was to obtain a
+              depth of knowledge in every algorithm I encountered. I now
+              understand that focusing on depth in one area (e.g., algorithm
+              function) led to a considerable waste of time as being an expert
+              on one of the many learning points meant less time could be
+              allocated to learning other relevant information/skills. I will be
+              needed to constantly learn new software, languages and domain
+              knowledge in my career in IT. Hence to tackle this issue in the
+              future, I shall compile a list of questions to guide my research
+              and learning process and set the scope of depth and breadth for
+              relevant topics/skills. I will utilise a note-taking application
+              such as Evernote to consolidate my knowledge. This will help me
+              focus, and not get sidetracked into learning more about a
+              term/domain/skill than needed to carry out tasks. I am aware that
+              in areas where I need to be an expert, delving deep into one
+              domain will allow me to discern the many applications of the
+              knowledge area. 
+            </p>
+
+            <p class="text-md md:text-lg">
+              With deadlines approaching, I proceeded to try out
+              snippets of code that I did not fully understand to mimic Blackbox
+              functions. I was surprised when I made progress with building a
+              model, and this challenged my assumption that I cannot apply with
+              having a beginner level of knowledge/skills. My small achievement
+              taught me that I should not doubt my capabilities and be hesitant
+              to try just because I do not have expertise. Additionally, I
+              understood the importance of segmenting tasks with proper time
+              allocation and discipline such that all learning tasks are
+              completed. I realised that not being an “expert” on things I learn
+              does not make me less capable. It is important to recognise when a
+              breadth of knowledge/skills may be more beneficial than having
+              expertise.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container mt-0 pt-0 flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row-reverse md:space-x-16"
+      >
+        <!-- Image -->
+        
+        <lord-icon
+    src="https://cdn.lordicon.com/flvisirw.json"
+    trigger="loop"
+    delay="5000"
+    colors="primary:#646e78,secondary:#5368df,tertiary:#ebe6ef"
+    style="width:50%;height:50%">
+</lord-icon>
+
+        
+
+        <!-- Content -->
+        <div class="flex flex-col items-start md:w-1/2">
+          <div class="flex flex-col space-y-5">
+            <h6 class="max-w-md text-2xl font-bold md:text-3xl">
+              Receiving Feedback and communication methods
+            </h6>
+            <p class="text-md md:text-lg">
+             <b>A</b>fter reading numerous publications, I explored two algorithms
+              in-depth without knowing if I was heading in the right direction.
+              Although I wanted to be error-free in my work, I was uneasy about
+              receiving negative feedback – that I misunderstood the tasks
+              assigned or my methods were wrong. Instead of approaching the
+              placement supervisor after making small progress (e.g., learning
+              about Blackbox functions), I opted to do as much work as possible
+              independently for many weeks. I realise that I desired to prove my
+              capability to not just the supervisor, but myself. It was
+              frustrating when I self-discovered that I was heading in the wrong
+              direction as it was time-consuming and needed numerous trials and
+              errors. I eventually approached the supervisor for guidance and
+              validation when I could not progress further. After talking to the
+              supervisor, I now understand that receiving feedback is not
+              necessarily daunting as it is not harsh criticism. Furthermore, it
+              does not undermine my capabilities or make my existing work
+              futile, as sometimes we must experience failures to know what is
+              correct. I recognise that I pressurised myself to be perfect, but
+              this was not expected of me since I am new to many things.
+            </p>
+
+            <p class="text-md md:text-lg">
+              I
+              now understand that there is a distinction between overreliance and
+              communicating to receive feedback. Constantly wanting to verify
+              without self-exploration may come off as dependence, while
+              periodically checking (e.g., once a week or fortnightly) is
+              necessary. In all prospective jobs, I will work on my
+              communication skills and practice asking for feedback and guidance
+              whenever needed. Additionally, I shall learn to graciously accept
+              and utilise both positive and negative feedback without getting
+              defensive. While this skill cannot be acquired overnight, I will
+              read on tips and mindfully practice it in my future workplace/s.
+            </p>
+            <p class="text-md md:text-lg">
+              I communicated with my placement supervisor through emails, physical
+              meetings, and video calls. I realised that physical meetings make
+              me feel intimidated, and it is harder to ask questions and process
+              feedback. However, I also recognised that for different purposes,
+              different communication methods work best (e.g., for many
+              questions, talking is better than emailing). I am aware that in my
+              career, I will need to be open to all methods of communication and
+              thus, I need to overcome my discomfort with face-to-face meetings.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Skills Heading -->
     <section id="skills">
-        <div class="container mx-auto px-6">
-          <h2 class="mb-6 text-3xl font-semibold text-center md:text-4xl">
-            Skills
-          </h2>
-          <p class="max-w-lg mx-auto text-center text-grayishBlue">
-            We've got more browsers in the pipeline. Please do let us know if
-            you've got a favourite you'd like us to prioritize.
-          </p>
-        </div>
-      </section>
-        <!-- Productive Section -->
+      <div class="container mx-auto px-6">
+        <h2 class="mb-6 text-3xl font-semibold text-center md:text-4xl">
+          Skills
+        </h2>
+        <p class="max-w-lg mx-auto text-center text-grayishBlue">
+          We've got more browsers in the pipeline. Please do let us know if
+          you've got a favourite you'd like us to prioritize.
+        </p>
+      </div>
+    </section>
+    <!-- Productive Section -->
     <section id="productive" class="bg-white dark:bg-darkBlue">
-        <!-- Productive Container -->
-        <div
-          class="container flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row md:space-x-16"
-        >
-          <!-- Image -->
-          <div class="w-1/3">
-            <img
-              src="images/3d-model.png"
-              alt=""
-              class="mb-5"
-            />
-          </div>
-          <!-- Content -->
-          <div class="flex flex-col items-start md:w-1/2">
-            <div class="flex flex-col space-y-5">
-              <h6 class="max-w-md text-2xl font-bold md:text-3xl">
-                Heading1
-              </h6>
-              <p class="text-md md:text-lg">
-                Never let location be an issue when accessing your files. Fylo has
-                you covered for all of your file storage needs.
-              </p>
-  
-              <p class="text-md md:text-lg">
-                Securely share files and folders with friends, family and
-                colleagues for live collaboration. No email attachments required.
-              </p>
-            </div>
-  
-            
-          </div>
-          
-        </div>
-  
-        <div
-          class="container mt-0 pt-0 flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row-reverse md:space-x-16"
-        >
+      <!-- Productive Container -->
+      <div
+        class="container flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row md:space-x-16"
+      >
         <!-- Image -->
         <div class="w-1/3">
-          <img
-            src="images/illustration-stay-productive.png"
-            alt=""
-            class="mb-10"
-          />
+          <img src="images/3d-model.png" alt="" class="mb-5" />
         </div>
-          
-          <!-- Content -->
-          <div class="flex flex-col items-start md:w-1/2">
-            <div class="flex flex-col space-y-5">
-              <h6 class="max-w-md text-2xl font-bold md:text-3xl">
-                Heading2
-              </h6>
-              <p class="text-md md:text-lg">
-                Never let location be an issue when accessing your files. Fylo has
-                you covered for all of your file storage needs.
-              </p>
-  
-              <p class="text-md md:text-lg">
-                Securely share files and folders with friends, family and
-                colleagues for live collaboration. No email attachments required.
-              </p>
-            </div>
-  
-            
-          </div>
-          
-          
-        </div>
-    </section>
-  
+        <!-- Content -->
+        <div class="flex flex-col items-start md:w-1/2">
+          <div class="flex flex-col space-y-5">
+            <h6 class="max-w-md text-2xl font-bold md:text-3xl">Heading1</h6>
+            <p class="text-md md:text-lg">
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
 
-  
-      <!-- EXP Heading -->
-      <section id="experiences">
-        <div class="container mx-auto px-6">
-          <h2 class="mb-6 text-3xl font-semibold text-center md:text-4xl">
-            Experiences
-          </h2>
-          <p class="max-w-lg mx-auto text-center text-grayishBlue">
-            We've got more browsers in the pipeline. Please do let us know if
-            you've got a favourite you'd like us to prioritize.
-          </p>
-        </div>
-      </section>
-        <!-- Productive Section -->
-    <section id="productive" class="bg-white dark:bg-darkBlue">
-        <!-- Productive Container -->
-        <div
-          class="container flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row md:space-x-16"
-        >
-          <!-- Image -->
-          <div class="w-1/3">
-            <img
-              src="images/3d-model.png"
-              alt=""
-              class="mb-5"
-            />
+            <p class="text-md md:text-lg">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required.
+            </p>
           </div>
-          <!-- Content -->
-          <div class="flex flex-col items-start md:w-1/2">
-            <div class="flex flex-col space-y-5">
-              <h6 class="max-w-md text-2xl font-bold md:text-3xl">
-                Heading1
-              </h6>
-              <p class="text-md md:text-lg">
-                Never let location be an issue when accessing your files. Fylo has
-                you covered for all of your file storage needs.
-              </p>
-  
-              <p class="text-md md:text-lg">
-                Securely share files and folders with friends, family and
-                colleagues for live collaboration. No email attachments required.
-              </p>
-            </div>
-  
-            
-          </div>
-          
         </div>
-  
-        <div
-          class="container mt-0 pt-0 flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row-reverse md:space-x-16"
-        >
+      </div>
+
+      <div
+        class="container mt-0 pt-0 flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row-reverse md:space-x-16"
+      >
         <!-- Image -->
         <div class="w-1/3">
           <img
@@ -491,71 +509,128 @@ With deadlines approaching, I proceeded to try out snippets of code that I did n
             class="mb-10"
           />
         </div>
-          
-          <!-- Content -->
-          <div class="flex flex-col items-start md:w-1/2">
-            <div class="flex flex-col space-y-5">
-              <h6 class="max-w-md text-2xl font-bold md:text-3xl">
-                Heading2
-              </h6>
-              <p class="text-md md:text-lg">
-                Never let location be an issue when accessing your files. Fylo has
-                you covered for all of your file storage needs.
-              </p>
-  
-              <p class="text-md md:text-lg">
-                Securely share files and folders with friends, family and
-                colleagues for live collaboration. No email attachments required.
-              </p>
-            </div>
-  
-            
+
+        <!-- Content -->
+        <div class="flex flex-col items-start md:w-1/2">
+          <div class="flex flex-col space-y-5">
+            <h6 class="max-w-md text-2xl font-bold md:text-3xl">Heading2</h6>
+            <p class="text-md md:text-lg">
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+
+            <p class="text-md md:text-lg">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required.
+            </p>
           </div>
-          
-          
         </div>
+      </div>
     </section>
-  
-    
-                  
-  
-      
-  
-      
-       <!-- Footer -->
-    <footer class="py-16 bg-veryDarkBlue">
-        <!-- Footer Flex Container -->
-        <div
-          class="container flex flex-col items-center justify-between mx-auto space-y-16 px-6 md:flex-row md:space-y-0"
-        >
-          <!-- Logo/Menu Container -->
-          <div
-            class="flex flex-col items-center justify-between space-y-8 text-lg font-light md:flex-row md:space-y-0 md:space-x-14 text-grayishBlue"
-          >
-           
-  
-            <a href="#about" class="uppercase hover:text-softRed">About</a>
-            <a href="#skills" class="uppercase hover:text-softRed">Skills</a>
-            <a href="#experiences" class="uppercase hover:text-softRed">Experiences</a>
-            <a href="#wil" class="uppercase hover:text-softRed">WIL</a>
-          </div>
-  
-          <!-- Social Container -->
-          <div class="flex space-x-10 text-white">
-            <a href="#">
-                <i class="fa-brands text-white fa-2xl fa-github"></i>
-            </a>
-            <a href="#">
-                <i class="fa-brands text-white fa-2xl fa-linkedin"></i>
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-phone text-white"></i> +61-413976973
-            </a>
-            <a href="#">
-                <i class="fa-solid fa-envelope"></i> abhiyendragahlot@gmail.com
-            </a>
+
+    <!-- EXP Heading -->
+    <section id="experiences">
+      <div class="container mx-auto px-6">
+        <h2 class="mb-6 text-3xl font-semibold text-center md:text-4xl">
+          Experiences
+        </h2>
+        <p class="max-w-lg mx-auto text-center text-grayishBlue">
+          We've got more browsers in the pipeline. Please do let us know if
+          you've got a favourite you'd like us to prioritize.
+        </p>
+      </div>
+    </section>
+    <!-- Productive Section -->
+    <section id="productive" class="bg-white dark:bg-darkBlue">
+      <!-- Productive Container -->
+      <div
+        class="container flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row md:space-x-16"
+      >
+        <!-- Image -->
+        <div class="w-1/3">
+          <img src="images/3d-model.png" alt="" class="mb-5" />
+        </div>
+        <!-- Content -->
+        <div class="flex flex-col items-start md:w-1/2">
+          <div class="flex flex-col space-y-5">
+            <h6 class="max-w-md text-2xl font-bold md:text-3xl">Heading1</h6>
+            <p class="text-md md:text-lg">
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+
+            <p class="text-md md:text-lg">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required.
+            </p>
           </div>
         </div>
-      </footer>
+      </div>
+
+      <div
+        class="container mt-0 pt-0 flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row-reverse md:space-x-16"
+      >
+        <!-- Image -->
+        <div class="w-1/3">
+          <img
+            src="images/illustration-stay-productive.png"
+            alt=""
+            class="mb-10"
+          />
+        </div>
+
+        <!-- Content -->
+        <div class="flex flex-col items-start md:w-1/2">
+          <div class="flex flex-col space-y-5">
+            <h6 class="max-w-md text-2xl font-bold md:text-3xl">Heading2</h6>
+            <p class="text-md md:text-lg">
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+
+            <p class="text-md md:text-lg">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-16 bg-veryDarkBlue">
+      <!-- Footer Flex Container -->
+      <div
+        class="container flex flex-col items-center justify-between mx-auto space-y-16 px-6 md:flex-row md:space-y-0"
+      >
+        <!-- Logo/Menu Container -->
+        <div
+          class="flex flex-col items-center justify-between space-y-8 text-lg font-light md:flex-row md:space-y-0 md:space-x-14 text-grayishBlue"
+        >
+          <a href="#about" class="uppercase hover:text-softRed">About</a>
+          <a href="#skills" class="uppercase hover:text-softRed">Skills</a>
+          <a href="#experiences" class="uppercase hover:text-softRed"
+            >Experiences</a
+          >
+          <a href="#wil" class="uppercase hover:text-softRed">WIL</a>
+        </div>
+
+        <!-- Social Container -->
+        <div class="flex space-x-10 text-white">
+          <a href="#">
+            <i class="fa-brands text-white fa-2xl fa-github"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands text-white fa-2xl fa-linkedin"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-phone text-white"></i> +61-413976973
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-envelope"></i> abhiyendragahlot@gmail.com
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
